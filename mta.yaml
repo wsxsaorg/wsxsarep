@@ -12,10 +12,8 @@ modules:
 resources:
  - name: hdi_db
    parameters:
-      service-name: wsxsahdi   
       config:
-         schema: wsxsadb
-         makeUniqueName: false 
+         schema: hcont1
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
